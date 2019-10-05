@@ -24,7 +24,7 @@ with open('CSVs/monthly.csv', 'w', newline="") as csvfile:
 # Displaying chart on screen
 print("Data is stored in CSVs/monthly.csv")
 key = input("Do you want to print a chart? Press 'y'" \
-            + "to print chart or any other key to quit program: " )
+            + " to print chart or any other key to quit program: " )
 if key == 'y':
     # Printing chart
     x = []

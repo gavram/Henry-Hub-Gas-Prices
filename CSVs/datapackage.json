@@ -1,0 +1,99 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "annual",
+      "path": "annual.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "format": "uuid",
+            "title": "Year",
+            "description": "Year of Henry Hub Natural gas prices"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price",
+            "description": "Henry Hub natural gas prices"
+          }
+        ]
+      }
+    },
+    {
+      "name": "daily",
+      "path": "daily.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "mm/dd/yyyy",
+            "title": "Date",
+            "description": "Date of Henry Hub natural gas price"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price",
+            "description": "Henry Hub natural gas prices"
+          }
+        ]
+      }
+    },
+    {
+      "name": "monthly",
+      "path": "monthly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month/Year",
+            "type": "any",
+            "format": "mm/yyyy",
+            "title": "Month",
+            "description": "Month of Henry Hub natural gas price"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price",
+            "description": "Henry Hub natural gas prices"
+          }
+        ]
+      }
+    },
+    {
+      "name": "month",
+      "path": "monthly_from_daily_api.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Month",
+            "type": "any",
+            "format": "mm/yyyy",
+            "title": "Month",
+            "description": "Month of Henry Hub natural gas price"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "title": "Price",
+            "description": "Henry Hub natural gas prices"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "hh_ng_pl",
+  "title": "Henry Hub Natural Gas Prices"
+}

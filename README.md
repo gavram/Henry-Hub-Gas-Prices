@@ -4,11 +4,16 @@
 
 	Prices are obtained from http://www.eia.gov/dnav/ng/hist/rngwhhdm.htm.
 
-	While there are many ways to get pricing from this site, the API method has been chosen here for many reasons. The main reasons are the speed, the simplicity of the Python code and the non-overloading of the server with unnecessary queries.
+	While there are many ways to get pricing from this site, the API
+method has been chosen here for many reasons. The main reasons are the speed,
+the simplicity of the Python code and the non-overloading of the server with
+unnecessary queries.
 	The resulting data is in the CSVs folder.
 	
 	1. annual.py
-	Annual data for the price of natural gas. The data is obtained using annual.py where there is an option and the ability to represent the data graphically on the screen. The data is stored in annual.csv
+	Annual data for the price of natural gas. The data is obtained using
+annual.py where there is an option and the ability to represent the data graphically
+on the screen. The data is stored in annual.csv
 
 	2. monthly.py
 	Monthly data for the price of natural gas. The data is obtained using monthly.py, where there is an option and the ability to represent the data graphically on the screen. The data is stored in monthly.csv

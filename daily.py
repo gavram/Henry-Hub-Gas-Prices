@@ -9,7 +9,7 @@ api_url_daily = "https://api.eia.gov/series/?api_key=" \
                 + "76c7b40fb506528c68e66cc40d1a2670&series_id=NG.RNGWHHD.D"
 
 # Obtaining Daily and Monthly Data for Natural Gas Prices, then writing in
-# "CSVs\daily_from_api.csv" and "CSVs\monthly_from_daily_api.csv",
+# "CSVs\daily.csv" and "CSVs\monthly_from_daily_api.csv",
 # using daily API series_id
 
 # Daily Prices

@@ -20,7 +20,7 @@ with open('CSVs/annual.csv', 'w', newline="") as csvfile:
 # Displaying chart on screen
 print("Data is stored in CSVs/annual.csv")
 key = input("Do you want to print a chart? Press 'y'" \
-            + " to print chart or any other key to quit program: " )
+            + "to print chart or any other key to quit program: " )
 if key == 'y':
     x = []
     y = []
